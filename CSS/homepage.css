@@ -107,8 +107,8 @@ nav a:hover{
     width: 200px;
 }
 .sect{
-    /* border: 2px solid red; */
-    margin-top: 50px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    margin: 50px 10px;
 }
 .titles{
     /* border: 2px solid green; */
@@ -118,12 +118,17 @@ nav a:hover{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 35px;
 }
-.paragraph{
-    /* border: 2px solid brown; */
-    border-radius: 10px;
-    background-color: blanchedalmond;
+.content1{
+    display: flex;
+    /* border: 2px solid rgb(103, 211, 238);
+    border-radius: 7px;
+    background-color: rgb(103, 211, 238); */
     margin: 10px;
-    padding: 10px;
-    display: inline-block;
-    width: 50%;
+}
+.content1 img{
+    margin: 20px 70px;
+    width: 280px;
+}
+#item3{
+    position: absolute;
 }

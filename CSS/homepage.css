@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    border: 2px solid red;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    height: auto;
+    /* align-items: center; */
+}
+#item1{
+    border: 1px solid green;
+    display: inline-block;
+    margin: 10px;
+}
+#item2{
+    border: 1px solid purple;
+    display: inline-block;
+    margin: 10px;
+    position: absolute;
+    left: 500px;
+    right: 500px;
+}
+#item3{
+    border: 1px solid blue;
+    display: inline-block;
+    margin: 10px;
+    position: absolute;
+    right: 20px;
+}

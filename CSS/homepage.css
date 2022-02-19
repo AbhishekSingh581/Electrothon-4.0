@@ -1,31 +1,107 @@
+#heading{
+    /* border: 3px solid royalblue; */
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    /* padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px; */
+     background-image: url(/sarah-le-GFIou2AVG3Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -100px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 1000px;
+}
 .container{
     display: flex;
-    border: 2px solid red;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-    height: 70px;
+    /* border: 2px solid red; */
+    /* flex-direction: column;  */
+    /* flex-wrap: wrap;*/
+    height: 100px;
     align-items: center;
+    /* position: fixed; */
+    top: 2px;
+    /* margin: 0px 0px;
+    padding: 0px; */
+    background-color: black;
 }
 #item1{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: inline-block;
-    margin: 10px;
+    margin: 0px 0px;
     position: absolute;
     left: 20px;
+    color: aliceblue;
+    margin: 0px;
+    /* width: 5px;
+    height: 5px; */
+}
+#item1 img{
+    width: 100px;
 }
 #item2{
-    border: 1px solid purple;
-    display: inline-block;
+    /* border: 1px solid rgb(255, 3, 255); */
+    display: flex;
     margin: 10px;
     position: absolute;
-    left: 500px;
-    right: 500px;
+    left: 300px;
+    right: 300px;
     height: 30px;
+    width: auto;
+    /* align-items: center; */
+    justify-content: center;
 }
 #item3{
-    border: 1px solid blue;
+    /* border: 1px solid rgb(14, 65, 4); */
     display: inline-block;
     margin: 10px;
     position: absolute;
     right: 20px;
+    width: auto;
+    color: aliceblue;
+    font-size: 20px;
+}
+nav{
+    /* border: 1px solid rgb(25, 0, 255); */
+    margin: 5px;
+    /* display: inline-block; */
+}
+nav a{
+    /* border: 1px solid black; */
+    margin: 3px 10px;
+    color: aliceblue;
+    transition: color .5s;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav a:hover{
+    color: gray; 
+    text-decoration: underline;
+}
+.bigwords{
+    font-size: 60px;
+    color: aliceblue;
+    margin-top: 30px;
+    padding-left: 50px;
+    /* text-align: center; */
+}
+.subcontainer{
+    /* border: 3px solid white; */
+    height: 250px;
+}
+.subcontainer #widows img{
+    position: absolute;
+    top: 140px;
+    right: 100px;
+    width: 200px;
+}
+.subcontainer #widows1 img{
+    position: absolute;
+    top: 140px;
+    right: 290px;
+    width: 200px;
 }

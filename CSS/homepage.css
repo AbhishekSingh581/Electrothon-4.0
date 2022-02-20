@@ -18,7 +18,7 @@ body{
     padding: 0px;
     margin: 0px;
     height: 1000px;
-    background-color: rgb(203,223,246);
+    background-color: rgb(255, 255, 255);
 }
 .container{
     display: flex;
@@ -130,6 +130,7 @@ nav a:hover{
     border-radius: 7px;
     background-color: rgb(103, 211, 238); */
     margin: 10px;
+    /* flex-direction: column; */
 }
 .content1 img{
     margin: 20px 70px;
@@ -142,4 +143,23 @@ nav a:hover{
 }
 #item3{
     position: absolute;
+}
+.textsection{
+    /* border: 2px solid green; */
+    display: flex;
+    margin: 0px;
+}
+.explanation{
+    display: inline-block;
+    width: 280px;
+    margin: 0px 75px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.explanation p{
+    padding: 3px;
+    
 }
